@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(to bottom, #541818, #060606);
+    height: 100vh;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  header {
+    color: rgb(231, 195, 195);
+    margin: 1rem;
+  }
+  
+  h1 {
+    font-size: xxx-large;
+  }
+  
+  h2 {
+    font-size: xx-large;
+    text-decoration: underline;
+  }
+  
+  section {
+    color: rgb(231, 195, 195);
+    margin: 1rem;
+  }
+  
+  li {
+    list-style-type: none;
+    margin: 0.5rem;
+    font-size: x-large;
+    transition: color 5s ease;
+  }
+  
+  p {
+    margin: 0.5rem;
+  }
+  
+  li:hover {
+    color: rgb(0, 0, 0);
+  }
+  
